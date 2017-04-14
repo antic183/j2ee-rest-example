@@ -8,83 +8,83 @@
 <link rel="stylesheet" href="lib/foundation-sites/dist/css/foundation.min.css" />
 </head>
 <body>
-	<div class="row">
+    <div class="row">
       <div class="large-12 columns">
         <h1>Restful example</h1>
       </div>
     </div>
-	<div class="row">
-		<div class="large-12 medium-12 columns">
-			<form action="api/v1/test/getPerson/" method="post" enctype="multipart/form-data" id="myForm">
-				<div class="row">
-					<div class="medium-6 columns">
-						<label>First name 
-							<input type="text" id="firstName" name="firstName" placeholder="first name" />
-						</label> 
-					</div>
-					<div class="medium-6 columns">
-						<label>Last name
-							<input type="text" id="lastName" name="lastName" placeholder="last name" />
-						</label> 
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="medium-6 columns">
-						<label>Data type
-							<select name="dataType" id="dataType">
-								<option selected="selected">Text</option>
-								<option>Json</option>
-								<option>Xml</option>
-							</select>
-						</label>
-					</div>
-					<div class="medium-6 columns">
-						<label>Request methode
-							<select name="requestMethode" id="requestMethode">
-								<option value="Post" selected="selected">Post</option>
-							</select>
-						</label> 
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="medium-4 columns">
-						<label>Path param
-							<input type="text" placeholder="Path param" name="pathParam" id="pathParam" value="default path param" />
-						</label>
-					</div>
-					<div class="medium-4 columns">
-						<label>Content-Type
-							<select name="contentType" id="contentType">
-								<option value="application/x-www-form-urlencoded" selected="selected">x-www-form-urlencoded</option>
-								<option value="application/json">Json</option>
-							</select>
-						</label> 
-					</div>
-					<div class="medium-4 columns">
-						<label>Process data
-							<select name="processData" id="processData">
-								<option value="true" selected="selected">true</option>
-								<option value="false">false</option>
-							</select>
-						</label> 
-					</div>
-				</div>
-		
-				<div class="row">
-					<div class="medium-12 columns">
-						<input type="submit" class="button" value="Send data"/>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
+    <div class="row">
+        <div class="large-12 medium-12 columns">
+            <form action="api/v1/test/getPerson/" method="post" enctype="multipart/form-data" id="myForm">
+                <div class="row">
+                    <div class="medium-6 columns">
+                        <label>First name 
+                            <input type="text" id="firstName" name="firstName" placeholder="first name" />
+                        </label> 
+                        </div>
+                    <div class="medium-6 columns">
+                        <label>Last name
+                            <input type="text" id="lastName" name="lastName" placeholder="last name" />
+                        </label> 
+                    </div>
+                </div>
 
-	<script src="lib/jquery/dist/jquery.min.js"></script>
-	<script src="lib/jquery.serializeJSON/jquery.serializejson.min.js"></script>
-<!-- <script src="lib/what-input/dist/what-input.js"></script> -->
+                <div class="row">
+                    <div class="medium-6 columns">
+                        <label>Data type
+                            <select name="dataType" id="dataType">
+                                <option selected="selected">Text</option>
+                                <option>Json</option>
+                                <option>Xml</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="medium-6 columns">
+                        <label>Request methode
+                            <select name="requestMethode" id="requestMethode">
+                                <option value="Post" selected="selected">Post</option>
+                            </select>
+                        </label> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="medium-4 columns">
+                        <label>Path param
+                            <input type="text" placeholder="Path param" name="pathParam" id="pathParam" value="default path param" />
+                        </label>
+                    </div>
+                    <div class="medium-4 columns">
+                        <label>Content-Type
+                            <select name="contentType" id="contentType">
+                                <option value="application/x-www-form-urlencoded" selected="selected">x-www-form-urlencoded</option>
+                                <option value="application/json">Json</option>
+                            </select>
+                        </label> 
+                    </div>
+                    <div class="medium-4 columns">
+                        <label>Process data
+                            <select name="processData" id="processData">
+                                <option value="true" selected="selected">true</option>
+                                <option value="false">false</option>
+                            </select>
+                        </label> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <input type="submit" class="button" value="Send data"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/jquery.serializeJSON/jquery.serializejson.min.js"></script>
+    <!-- <script src="lib/what-input/dist/what-input.js"></script> -->
     <script src="lib/foundation-sites/dist/js/foundation.js"></script>
-	<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
