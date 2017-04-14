@@ -1,0 +1,13 @@
+{
+  "name": "Restful example",
+  "description": "A simple J2EE restful example",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery.serializeJSON": "^2.7.2",
+    "foundation-sites": "^6.3.1"
+  }
+}
